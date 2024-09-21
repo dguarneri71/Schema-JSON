@@ -1,0 +1,20 @@
+{
+    "title": "JSON Schema for my JSON file format",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "hobbies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [ "name" ],
+    "additionalProperties": false
+  }
